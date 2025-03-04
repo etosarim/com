@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-wrapper div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-wrapper div span {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.57px;
+    letter-spacing: 0%;
+    color: rgba(66, 66, 66, 1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 140px;
+    border-bottom: 2px solid rgba(222, 219, 219, 1)
+}
+
+main {
+    background-color: rgba(117, 117, 117, 0.19);
+}
+
+section .login-card {
+    width: 650px;
+    height: 786px;
+    border: 1px solid rgba(222, 219, 219, 1);
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 46px;
+    margin-bottom: 52px;
+    padding: 66px 50px 37px 64px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.login-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-card-wrapper .logout-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.login-card-wrapper .logout-wrapper p {
+    font-family: sans-serif;
+font-weight: 700;
+font-size: 24px;
+line-height: 29.05px;
+letter-spacing: 0%;
+color: rgba(240, 64, 15, 1);
+}
+
+.login-cardss {
+text-align: center;
+font-weight: 700;
+font-size:48px;
+color: rgba(14, 13, 93, 1);
+line-height: 58.09px;
+margin:131px 0 20px;
+}
+
+.add{
+    display: flex;
+    border-radius:20px;
+    border-radius:rgba(245, 245, 245, 1);
+}
+
+button{
+    border-radius:20px;
+    background-color:rgba(245, 245, 245, 1); 
+}
